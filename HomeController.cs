@@ -35,7 +35,7 @@ namespace VimeoTest.Controllers
                 string vVimeURL = "https://api.vimeo.com/me/videos";
                 WebClient wc = new WebClient();
                 wc.Headers.Clear();
-                wc.Headers.Add("Authorization", "bearer 7d797460fbf0f8bf2b59bade3e72d4ff");
+                wc.Headers.Add("Authorization", "bearer TokenGeneratedFromYourAccount");
                 wc.Headers.Add("Content-Type", "application/json");
                 wc.Headers.Add("Accept", "application/vnd.vimeo.*+json;version=3.4");
                 wc.Encoding = System.Text.Encoding.UTF8;
