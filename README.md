@@ -1,4 +1,4 @@
-# VimeoVideoUpload
+# Vimeo Video Upload
 Upload video from web application to Vimeo Account
 
 The whole application is divided into two steps,
