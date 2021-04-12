@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "UploadVideo";
+}
+
+<div>
+    @using (Html.BeginForm("SaveVideoToVimeo", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <br /><br />
+        <span>Select File:</span>
+        <input type="file" name="file" />
+        <hr />
+        <input type="submit" value="Upload" />
+        <br />
+    }
+</div>
+
